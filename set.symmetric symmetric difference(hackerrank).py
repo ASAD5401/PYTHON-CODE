@@ -1,0 +1,8 @@
+n=int(input())
+s=str(input()).split()
+q1=set(s)
+m=int(input())
+b=str(input()).split()
+w=set(b)
+e=q1.symmetric_difference(w)
+print(len(e))
