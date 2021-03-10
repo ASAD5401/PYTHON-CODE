@@ -1,0 +1,12 @@
+monthsl=["jan","feb","march","may"]
+print(monthsl)
+monthsl.insert(3,"april")
+print(monthsl)
+monthsl.append("jun")
+print(monthsl)
+monthsl.pop()
+print(monthsl)
+monthsl.remove("feb")
+print(monthsl)
+monthsl.reverse()
+print(monthsl)
